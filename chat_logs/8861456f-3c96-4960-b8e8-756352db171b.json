@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "who is mohd"
+    },
+    {
+        "role": "assistant",
+        "content": "Mohammed Alnasser is a fresh Computer Science graduate passionate about data analysis. He has experience in IT support and application development, specializing in Microsoft Power Platform and chatbot technologies. He is currently working as an IT intern at ARO Drilling."
+    }
+]

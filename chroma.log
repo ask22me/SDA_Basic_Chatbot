@@ -1,0 +1,27 @@
+[33mWARNING[0m:  [09-03-2025 13:56:31] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [09-03-2025 13:56:31] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component System
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component SqliteDB
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component Posthog
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component LocalExecutor
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component SegmentAPI
+[36mDEBUG[0m:    [09-03-2025 13:56:31] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [09-03-2025 13:56:31] Started server process [[36m80796[0m]
+[32mINFO[0m:     [09-03-2025 13:56:31] Waiting for application startup.
+[32mINFO[0m:     [09-03-2025 13:56:31] Application startup complete.
+[32mINFO[0m:     [09-03-2025 13:56:31] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [09-03-2025 13:57:24] ::1:58714 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [09-03-2025 13:57:24] ::1:58715 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [09-03-2025 13:57:24] ::1:58715 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [09-03-2025 13:57:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [09-03-2025 13:57:24] ::1:58714 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [09-03-2025 13:57:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [09-03-2025 13:57:24] ::1:58714 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [09-03-2025 13:59:18] ::1:58762 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [09-03-2025 13:59:18] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [09-03-2025 13:59:18] ::1:58762 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/fd3cc47c-1732-4e9b-a205-32ccec291a64/upsert HTTP/1.1" 200
+[32mINFO[0m:     [09-03-2025 13:59:28] ::1:58778 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/fd3cc47c-1732-4e9b-a205-32ccec291a64/query HTTP/1.1" 200
